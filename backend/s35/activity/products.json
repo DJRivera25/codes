@@ -1,0 +1,38 @@
+[
+    {
+      "_id": "6822b3571bb288ad4a0f680d",
+      "name": "Laptop",
+      "description": "A high-performance laptop for gaming and work.",
+      "price": 1200,
+      "stocks": 50,
+      "isActive": true,
+      "sku": "LAPTOP-12345"
+    },
+    {
+      "_id": "6822b3571bb288ad4a0f680e",
+      "name": "Smartphone",
+      "description": "Latest model smartphone with advanced features.",
+      "price": 800,
+      "stocks": 100,
+      "isActive": true,
+      "sku": "PHONE-23456"
+    },
+    {
+      "_id": "6822b3571bb288ad4a0f680f",
+      "name": "Tablet",
+      "description": "A sleek tablet with a 10-inch display for work and play.",
+      "price": 500,
+      "stocks": 75,
+      "isActive": false,
+      "sku": "TABLET-34567"
+    },
+    {
+      "_id": "6822b3571bb288ad4a0f6810",
+      "name": "Wireless Keyboard",
+      "description": "Compact and ergonomic keyboard with Bluetooth connectivity.",
+      "price": 750,
+      "stocks": 120,
+      "isActive": true,
+      "sku": "KEYBOARD-67890"
+    }
+  ]

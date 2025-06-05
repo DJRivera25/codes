@@ -1,0 +1,25 @@
+[
+    {
+      "_id": "68229ecb1bb288ad4a0f65c0",
+      "firstName": "Derem",
+      "lastName": "Rivera",
+      "email": "djrrivera25@gmail.com",
+      "password": "qwerty1234",
+      "isAdmin": false,
+      "mobileNumber": "09223334444",
+      "enrollments": ["6822a0c91bb288ad4a0f661a", "6822a0c91bb288ad4a0f661c"],
+      "dateTimeRegistered": "2025-05-13T10:00:00Z"
+    },
+    {
+      "_id": "6822a0021bb288ad4a0f65e9",
+      "firstName": "Joshua",
+      "lastName": "Raquel",
+      "email": "jrrivera25@gmail.com",
+      "password": "qwerty1234",
+      "isAdmin": true,
+      "mobileNumber": "09334445555",
+      "enrollments": [],
+      "dateTimeRegistered": "2025-05-13T10:00:00Z"
+    }
+  ]
+  

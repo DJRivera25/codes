@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title>facebook</title>
+
+<!-- 	<style type="text/css">
+		.search {
+		  display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  margin-left: 50px;
+		  margin-right: 50px;
+		}
+		.container{
+		  display: flex;
+		  align-items: center;
+		  justify-content: space-between;
+		}
+		.item{
+	
+			flex-grow: 1;
+	
+		}
+	</style> -->
+	
+</head>
+<body>
+	
+<div class="container border-b border-gray-100 shadow-md">
+  <div class="flex flex-row justify-between gap-8 mx-3 " >
+    
+    <!-- Search Group 1 -->
+    <div class="flex items-start gap-2 p-2 rounded">
+      <img class="w-10 h-10 size-6 rounded-full object-cover" src="../activity/images/facebook.png">
+      <input 
+        type="text" 
+        name="search1" 
+        placeholder="Search Facebook" 
+        class="flex-1 p-2 rounded-3xl border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-500 bg-gray-100 w-72"
+      >
+    </div>
+
+    <!-- Search Group 2 -->
+     <div class="flex items-center gap-2">
+      <!-- Home Icon -->
+      <div class="px-12 p-3 items-center justify-center rounded-xl hover:bg-gray-100">
+        <button class="w-full h-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(75 85 99)" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+          </svg>
+        </button>
+      </div>
+      <!-- Video Icon -->
+      <div class="px-12 p-3 items-center justify-center rounded-xl hover:bg-gray-100">
+        <button class="w-full h-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(75 85 99)" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+          </svg>
+        </button>
+      </div>
+      <!-- Marketplace Icon -->
+      <div class="px-12 p-3 items-center justify-center rounded-xl hover:bg-gray-100">
+        <button class="w-full h-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(75 85 99)" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 21v-7.5a.75.75 0 0 1 .75-.75h3a.75.75 0 0 1 .75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349M3.75 21V9.349m0 0a3.001 3.001 0 0 0 3.75-.615A2.993 2.993 0 0 0 9.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 0 0 2.25 1.016c.896 0 1.7-.393 2.25-1.015a3.001 3.001 0 0 0 3.75.614m-16.5 0a3.004 3.004 0 0 1-.621-4.72l1.189-1.19A1.5 1.5 0 0 1 5.378 3h13.243a1.5 1.5 0 0 1 1.06.44l1.19 1.189a3 3 0 0 1-.621 4.72M6.75 18h3.75a.75.75 0 0 0 .75-.75V13.5a.75.75 0 0 0-.75-.75H6.75a.75.75 0 0 0-.75.75v3.75c0 .414.336.75.75.75Z" />
+          </svg>
+        </button>
+      </div>
+      <!-- Groups Icon -->
+      <div class="px-12 p-3 items-center justify-center rounded-xl hover:bg-gray-100">
+        <button class="w-full h-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(75 85 99)" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
+          </svg>          
+        </button>
+      </div>
+      <!-- Gaming Icon -->
+      <div class="px-12 p-3 items-center justify-center rounded-xl hover:bg-gray-100">
+        <button class="w-full h-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="rgb(75 85 99)" class="size-6">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 17.25v1.007a3 3 0 0 1-.879 2.122L7.5 21h9l-.621-.621A3 3 0 0 1 15 18.257V17.25m6-12V15a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 15V5.25m18 0A2.25 2.25 0 0 0 18.75 3H5.25A2.25 2.25 0 0 0 3 5.25m18 0V12a2.25 2.25 0 0 1-2.25 2.25H5.25A2.25 2.25 0 0 1 3 12V5.25" />
+          </svg>                   
+        </button>
+      </div>
+    </div>
+
+
+    <!-- Search Group 3 -->
+    <div class="flex items-center gap-2">
+      <!-- Menu Icon -->
+      <div class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300">
+        <button class="w-full h-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+          </svg>          
+        </button>
+      </div>
+
+      <!-- Messenger Icon -->
+      <div class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300">
+        <button class="w-full h-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <path fill-rule="evenodd" d="M5.337 21.718a6.707 6.707 0 0 1-.533-.074.75.75 0 0 1-.44-1.223 3.73 3.73 0 0 0 .814-1.686c.023-.115-.022-.317-.254-.543C3.274 16.587 2.25 14.41 2.25 12c0-5.03 4.428-9 9.75-9s9.75 3.97 9.75 9c0 5.03-4.428 9-9.75 9-.833 0-1.643-.097-2.417-.279a6.721 6.721 0 0 1-4.246.997Z" clip-rule="evenodd" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Notification Icon -->
+      <div class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300">
+        <button class="w-full h-full flex items-center justify-center">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <path fill-rule="evenodd" d="M5.25 9a6.75 6.75 0 0 1 13.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 0 1-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 1 1-7.48 0 24.585 24.585 0 0 1-4.831-1.244.75.75 0 0 1-.298-1.205A8.217 8.217 0 0 0 5.25 9.75V9Zm4.502 8.9a2.25 2.25 0 1 0 4.496 0 25.057 25.057 0 0 1-4.496 0Z" clip-rule="evenodd" />
+          </svg>          
+        </button>
+      </div>
+
+      <!-- Profile Icon -->
+      <div class="w-10 h-10 flex items-center justify-center border-gray-600 rounded-full bg-gray-200 hover:bg-gray-300">
+        <button class="hover:brightness-90">
+          <img class=" w-full h-full size-6 rounded-full object-cover border border-gray-400" src="../activity/images/profilepic.jpg">
+        </button>
+      </div>
+   </div>
+
+</div>
+
+
+</body>
+</html>

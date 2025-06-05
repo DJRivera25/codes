@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Web Developer Portfolio</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+	<!-- External CSS -->
+	<link rel="stylesheet" type="text/css" href="./index.css">
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<div class="container">
+			<div class="d-flex align-items-center">
+				<img src="./images/my photo.png" class="nav-profile-img me-2" alt="Profile">
+				<a class="navbar-brand" href="#landing">DJR</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav ms-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#landing">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#projects">Projects</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#tools">Tools</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Landing Section -->
+	<div id="landing" class="landing-section text-center">
+		<img src="./images/landing-image.png" class="landing-img mt-5 p-5">
+
+		<!-- Overlapping Grid Content -->
+		<div class="position-absolute top-50 start-50 translate-middle w-100">
+			<div class="container">
+				<div class="row g-3">
+					<div class="col-lg-6 text-white text-start ms">
+						<div class="px-4 py-5 mb-5 ">
+							<div class="x-line-short my-5"></div>
+							<h2 class="fw-bold mb-4">I'M DJ, a Full Stack Web Developer</h2>
+							<p class="my-2">Passionate about creating beautiful and functional web experiences. As
+								a Full Stack Web Developer, I bring ideas to life through thoughtful design and seamless
+								development. With expertise in front-end and back-end technologies, I craft responsive,
+								user-centered applications that deliver both aesthetic appeal and powerful
+							functionality.</p>
+							<a href="#contact" class="btn btn-color my-5 text-white text-decoration-none">GET IN TOUCH</a>
+						</div>
+					</div>
+					<div class="col-lg-6 text-white text-start text-md-end d-lg-block">
+						<div class="p-md-4 my-md-auto py-md-5 mb-md-5">
+							<h4 class="mb-4">ABOUT ME</h4>
+							<p id="about-text" class="my-2 ms-auto">
+								Hi, I’m DJ, a Full Stack Web Developer dedicated to creating beautiful and functional web
+								experiences. With a background in engineering and a passion for technology, I
+								transitioned to web development to combine my problem-solving skills with my creative
+							side.</p>
+							<a id="learn-more" href="#about" class="text-white">Learn More &rarr;</a>
+						</div>
+
+						<div class="p-md-4 my-md-auto py-md-5 mb-md-5">
+							<h4 class="mb-4">MY WORK</h4>
+							<p id="about-text" class="my-2 ms-auto">
+								I develop web applications using Laravel and Vue.js, focusing on creating responsive,
+							functional solutions with seamless front-end and back-end integration.</p>
+							<a id="learn-more" href="#projects" class="text-white">View Projects &rarr;</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ABOUT SECTION -->
+	<div class="container-fluid bg-dark" id="about">
+		<h2 class="text-center mb-4 text-white pt-5 pb-2">ABOUT ME</h2>
+		<div class="row justify-content-center border-top-yellow">
+			<div class="col-12 col-xl-3 my-5 py-2 d-flex justify-content-center">
+				<img src="./images/about-image.png" class="about-profile-img">
+			</div>
+			<div class="col-12 col-xl-6 my-5 mx-5" id="about-body">
+				<p class="text-white">I’m Derem Joshua Rivera, a Full Stack Web Developer who transforms ideas into engaging digital solutions. With roots in engineering and a strong drive to innovate, I transitioned into web development to merge my technical expertise with a passion for building creative, user-centered experiences.</p>
+				<p class="text-white">I specialize in building intuitive, responsive applications that serve both users and business goals. From designing seamless front-end interfaces with Vue.js to developing powerful back-end systems using Laravel, I thrive in every stage of the development process.</p>
+				<p class="text-white">My mission is to help individuals and organizations succeed in the digital space through thoughtful, efficient, and impactful solutions. Outside of coding, I enjoy spending time with my family, studying the Word of God, and playing guitar — using my gifts to glorify Him and serve others.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- PROJECTS SECTION -->
+	<div id="projects" class="pt-4 pb-2 text-center text-uppercase project-section">
+		<!-- PROJECTS CARDS -->
+		<div class="container position-relative justify-content-center align-items-center">
+			<div>
+				<h2 class="text-center text-white mb-5">PROJECTS</h2>
+			</div>
+
+			<div class="row g-4 border border-warning pb-3">
+
+				<!-- Card 1 -->
+				<div class="col-md-6 col-lg-4">
+					<a href="https://media.sellerapp.com/v7/__images__/img/website-v2/conversion-pages/ecommerce-data-api/api.webp?width=1920&func=bound" target="_blank" class="card d-flex justify-content-center align-items-center text-decoration-none text-white bg-darkblue project-card card-height">
+						<img src="https://media.sellerapp.com/v7/__images__/img/website-v2/conversion-pages/ecommerce-data-api/api.webp?width=1920&func=bound" class="card-img-top my-4 px-4 img-fluid" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-4">E-commerce API Documentation</h5>
+							<p class="card-text">Dynamic E-Commerce Workflow Management. The system features dynamic routes for order processing, real-time inventory updates, and secure user authentication. It also supports seamless automated order reporting and comprehensive product management. Documented Backend API published publicly using Postman</p>
+						</div>
+					</a>
+				</div>
+
+				<!-- Card 2 -->
+				<div class="col-md-6 col-lg-4">
+					<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGCs3qlqDnE-MgzmsUfql-1zXur_PF6BQ6ZQ&s" target="_blank" class="card d-flex justify-content-center align-items-center text-decoration-none text-white bg-darkblue project-card card-height">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGCs3qlqDnE-MgzmsUfql-1zXur_PF6BQ6ZQ&s" class="card-img-top my-4 px-4 img-fluid" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-4">Course Booking API Documentation</h5>
+							<p class="card-text">RESTful API for managing course enrollments featuring user registration authentication and retrieval of user details. Supports course creation, updates, archiving, activiation and student enrollment. Publicly documented using Postman</p>
+						</div>
+					</a>
+				</div>
+
+
+				<!-- Card 3 -->
+				<div class="col-md-6 col-lg-4">
+					<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV16iI9DdXh2cTauJLRFStvQgbto-TvL_-mw&s" target="_blank" class="card d-flex justify-content-center align-items-center text-decoration-none text-white bg-darkblue project-card card-height">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTV16iI9DdXh2cTauJLRFStvQgbto-TvL_-mw&s" class="card-img-top my-4 px-4 img-fluid" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-4">Course Booking App</h5>
+							<p class="card-text">A MERN-stack course enrollment system featuring user registration, authentication and profile management. Authenticated users can create, update, archive, and activate courses. The platform also allows users to browse available courses and enroll seamlessly.</p>
+						</div>
+					</a>
+				</div>
+
+				<!-- Card 4 -->
+				<div class="col-md-6 col-lg-4">
+					<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAEUmb6rovbvv4gwYkwO6WJiHvEVVBkbtZnw&s" target="_blank" class="card d-flex justify-content-center align-items-center text-decoration-none text-white bg-darkblue project-card card-height">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAEUmb6rovbvv4gwYkwO6WJiHvEVVBkbtZnw&s" class="card-img-top my-4 px-4 img-fluid" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-4">E-commerce APP</h5>
+							<p class="card-text">MERN E-Commerce Platform. The platform features dynamic product catalog with filtering and sorting real-time search, seamless cart updates, secure checkout, and a comrprehensive admin dashboard with real-time analytics and user management capabilitis.</p>
+						</div>
+					</a>
+				</div>
+
+
+				<!-- Card 5 -->
+				<div class="col-md-6 col-lg-4">
+					<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTjRJQjk19wThvS12bvzVD1taD8anUzO2cQw&s" target="_blank" class="card d-flex justify-content-center align-items-center text-decoration-none text-white bg-darkblue project-card card-height">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTjRJQjk19wThvS12bvzVD1taD8anUzO2cQw&s" class="card-img-top my-4 px-4 img-fluid" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-4">Airline Booking System Mockup</h5>
+							<p class="card-text">Side Project Conceptual: design showcasing an intuitive UI for flight search, seat selection and booking confirmation, focusing on user experience and workflow efficiency</p>
+						</div>
+					</a>
+				</div>
+
+
+				<!-- Card 6 -->
+				<div class="col-md-6 col-lg-4">
+					<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Y0ZAoB7NsyjaafS-TCu4hW5XkCwI9mF4Sg&s" target="_blank" class="card d-flex justify-content-center align-items-center text-decoration-none text-white bg-darkblue project-card card-height">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5Y0ZAoB7NsyjaafS-TCu4hW5XkCwI9mF4Sg&s" class="card-img-top my-4 px-4 img-fluid" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-4">Airline Booking System Prototye</h5>
+							<p class="card-text">Side Project: Interactive prototype simulating end-to-end airline booking functionalities, including flight search, reservation, payment processing and real-time ticket management.</p>
+						</div>
+					</a>
+				</div>
+
+				<!-- Card 7 -->
+				<div class="col-md-6 col-lg-4">
+					<a href="https://media.licdn.com/dms/image/v2/D4E12AQFZk_BOEXMuxw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1711355118921?e=2147483647&v=beta&t=0dn89z7vhHg_yojXucqZc86hRlZl6fXb2gUTPaCZSNY" target="_blank" class="card d-flex justify-content-center align-items-center text-decoration-none text-white bg-darkblue project-card card-height">
+						<img src="https://media.licdn.com/dms/image/v2/D4E12AQFZk_BOEXMuxw/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1711355118921?e=2147483647&v=beta&t=0dn89z7vhHg_yojXucqZc86hRlZl6fXb2gUTPaCZSNY" class="card-img-top my-4 px-4 img-fluid" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-4">Short Courses Capstone - MYSQL</h5>
+							<p class="card-text">MYSQL zuitt bootcamp short course capstone project.</p>
+						</div>
+					</a>
+				</div>
+
+				<!-- Card 8 -->
+				<div class="col-md-6 col-lg-4">
+					<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVlYyxn4onKd61_dN33_BmtrN_z0_PZqpqcQ&s" target="_blank" class="card d-flex justify-content-center align-items-center text-decoration-none text-white bg-darkblue project-card card-height">
+						<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVlYyxn4onKd61_dN33_BmtrN_z0_PZqpqcQ&s" class="card-img-top my-4 px-4 img-fluid" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-4">Short Courses Capstone - PHP App</h5>
+							<p class="card-text">PHP zuiit bootcamp short course capstone project.</p>
+						</div>
+					</a>
+				</div>
+		
+				<!-- Card 9 -->
+				<div class="col-md-6 col-lg-4">
+					<a href="https://miro.medium.com/v2/resize:fit:1024/0*oUyjZH6_leRq64sQ.png" target="_blank" class="card d-flex justify-content-center align-items-center text-decoration-none text-white bg-darkblue project-card card-height">
+						<img src="https://miro.medium.com/v2/resize:fit:1024/0*oUyjZH6_leRq64sQ.png" class="card-img-top my-4 px-4 img-fluid" alt="...">
+						<div class="card-body">
+							<h5 class="card-title my-4">Short Courses Capstone - PHP Laravel App</h5>
+							<p class="card-text">PHP Laravel zuiit bootcamp short course capstone project.</p>
+						</div>
+					</a>
+				</div>
+			</div>
+			<!-- Learn More Button -->
+			<div class="my-5 d-flex justify-content-center" >
+				<a href="https://git.zuitt.co/B550/individual-rivera-deremjoshua" target="_blank" class="card bg-yellow text-white d-flex justify-content-center align-items-center text-decoration-none text-dark shadow-sm rounded view-more-button btn" >
+					<h5 class="card-title text-center m-0">View More Projects</h5>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- TOOLS SECTION -->
+	<div class="pt-4 pb-2" id="tools">
+		<div class="container">
+			<div class="row justify-content-around">
+				<h2 class="text-center py-5">TOOLS</h2>
+				<div class="col-sm-3 py-5">
+					<h2 class="text-center">Front End</h2>
+					<div class="d-flex justify-content-center flex-wrap">
+						<img src="./images/logo-html5.png" class="img-hover" alt="">
+						<img src="./images/logo-bootstrap.png" class="img-hover" alt="">
+						<img src="./images/logo-css3.png" class="img-hover" alt="">
+						<img src="./images/logo-javascript.png" class="img-hover" alt="">
+					</div>
+				</div>
+
+				<div class="col-sm-3 py-5">
+					<h2 class="text-center ">MERN</h2>
+					<div class="d-flex justify-content-center flex-wrap">
+						<img src="./images/logo-expressjs.png" class="img-hover" alt="">
+						<img src="./images/logo-mongodb.png" class="img-hover" alt="">
+						<img src="./images/logo-nodejs.png" class="img-hover" alt="">
+						<img src="./images/logo-react.png" class="img-hover"alt="">
+					</div>
+				</div>
+
+				<div class="col-sm-3 py-5">
+					<h2 class="text-center">Other Tools</h2>
+					<div class="d-flex justify-content-center flex-wrap">
+						<img src="./images/logo-sublime-text-3.png" class="img-hover" alt="">
+						<img src="./images/logo-postman.png" class="img-hover" alt="">
+						<img src="./images/logo-heroku.png" class="img-hover" alt="">
+						<img src="./images/logo-git.png" class="img-hover" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- CONTACT SECTION -->
+	<div class="pt-4 pb-2 contact-section" id="contact">
+		<div class="container pt-5 mt-5">
+			<div class="x-line-short my-5"></div>
+			<h2 class="fw-bold mb-4">Let's work together</h2>
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Get in touch with Me</h3>
+					<p class="line-height-1 mb-4">If you have a project in mind, a question to ask, or just want to connect, I’d love to hear from you.</p>
+					<h4 class="line-height-1">Follow Me:</h4>
+
+					<div class="d-flex justify-content-center align-items-center flex-wrap">
+						<img src="./images/instagram.png" class="img-fluid m-1">
+						<img src="https://freepnglogo.com/images/all_img/1730342312_black-facebook-logo.png" class="img-fluid m-1">
+						<img src="https://freepnglogo.com/images/all_img/1715491541linkedin-logo-transparent.png" class="img-fluid m-1">
+						<img src="https://freepnglogo.com/images/all_img/1707226109new-twitter-logo-png.png" class="img-fluid m-1">	
+						<img src="https://freepnglogo.com/images/all_img/1716574609whatsapp-logo-png.png" class="img-fluid m-1">	
+						<img src="https://freepnglogo.com/images/all_img/viber-2070.png" class="img-fluid m-1">	
+						<img src="https://freepnglogo.com/images/all_img/1701508739youtube-png.png" class="img-fluid m-1">	
+						<img src="https://freepnglogo.com/images/all_img/github-mark-white-logo-b1c0.png" class="img-fluid m-1">	
+					</div>
+				</div>
+
+				<div class="col-md-8">
+					<form class="d-grid mx-auto form-600">
+						<div class="form-group my-2">
+							<label class="text-white mb-2" for="name"></label>
+							<input type="text" class="form-control" id="name" name="name" placeholder="Enter Your Name">
+						</div>
+
+						<div class="form-group my-2">
+							<label class="text-white mb-2"  for="email"></label>
+							<input type="email" class="form-control" id="email" name="email" placeholder="Your Email Address">
+						</div>
+
+						<div class="form-group my-2">
+							<label class="text-white mb-2"  for="subject"></label>
+							<input type="text" class="form-control" id="subject" name="subject"placeholder="Subject">
+						</div>
+
+						<div class="form-group">
+							<label class="text-white mb-2" for="message"></label>
+							<textarea class="form-control" id="message" name="message" rows="7" placeholder="Write me a message"></textarea>
+						</div>
+
+						<button type="button"  class="btn my-5 ms-auto text-white border-white">Submit</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- FOOTER SECTION -->
+	<footer>
+		<div class="d-grid align-items-center justify-content-center text-center text-white bg-dark py-2">
+			<div>Derem Joshua Rivera</div>
+			<div>Full Stack Web Developer</div>
+			<div>&#169 All Rights Reserved 2025</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+	integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+	crossorigin="anonymous"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+	integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+	crossorigin="anonymous"></script>
+
+</body>
+
+</html>

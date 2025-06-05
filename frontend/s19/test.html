@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Positioning Example</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .image-container {
+            position: relative;
+            width: 100%;
+            height: 400px;
+        }
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .grid-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container mt-5">
+    <!-- Image Container with Grid Overlap -->
+    <div class="image-container">
+        <img src="https://www.shutterstock.com/image-illustration/3d-rendering-abstract-technology-background-260nw-1372325117.jpg" alt="Placeholder Image">
+        <!-- Overlapping Content -->
+        <div class="grid-content position-absolute">
+            <div class="row">
+                <div class="col-6">
+                    <h2 class="text-white">Overlapping Grid on Image</h2>
+                    <p class="text-white">This content is positioned above the image using absolute positioning.</p>
+                </div>
+                <div class="col-6">
+                    <h2 class="text-white">Overlapping Grid on Image</h2>
+                    <p class="text-white">This content is positioned above the image using absolute positioning.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Other Position Examples -->
+    <div class="mt-5">
+        <div class="row">
+            <div class="col-4">
+                <div class="position-static bg-light p-3 mb-3">Static Position</div>
+            </div>
+            <div class="col-4">
+                <div class="position-relative bg-light p-3 mb-3">Relative Position</div>
+            </div>
+            <div class="col-4">
+                <div class="position-absolute bg-light p-3 mb-3" style="top: 50px; left: 50px;">Absolute Position</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="position-fixed bg-info text-white p-3">Fixed Position</div>
+            </div>
+            <div class="col-6">
+                <div class="position-sticky bg-warning text-white p-3">Sticky Position</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

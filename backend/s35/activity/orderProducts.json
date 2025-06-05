@@ -1,0 +1,35 @@
+[
+    {
+      "_id": "6822b37a1bb288ad4a0f6817",
+      "orderId": "60b8d69f7d1d3f4e7c25a720",
+      "productId": "6822b3571bb288ad4a0f680d",
+      "quantity": 2,
+      "price": 500,
+      "subtotal": 1000
+    },
+    {
+      "_id": "6822b37a1bb288ad4a0f6818",
+      "orderId": "60b8d69f7d1d3f4e7c25a721",
+      "productId": "6822b3571bb288ad4a0f680e",
+      "quantity": 3,
+      "price": 300,
+      "subtotal": 900
+    },
+    {
+      "_id": "6822b37a1bb288ad4a0f6819",
+      "orderId": "60b8d69f7d1d3f4e7c25a722",
+      "productId": "6822b3571bb288ad4a0f680f",
+      "quantity": 1,
+      "price": 1500,
+      "subtotal": 1500
+    },
+    {
+      "_id": "6822b37a1bb288ad4a0f681a",
+      "orderId": "60b8d69f7d1d3f4e7c25a723",
+      "productId": "6822b3571bb288ad4a0f6810",
+      "quantity": 5,
+      "price": 250,
+      "subtotal": 1250
+    }
+  ]
+  

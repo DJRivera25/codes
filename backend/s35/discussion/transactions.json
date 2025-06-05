@@ -1,0 +1,19 @@
+[
+    {
+      "_id": "6822a3b21bb288ad4a0f6643",
+      "userId": "68229ecb1bb288ad4a0f65c0",
+      "courseId": "6822a0c91bb288ad4a0f661a",
+      "isPaid": true,
+      "total": "1000",
+      "dateTimeCreated": "2025-05-13"
+    },
+    {
+      "_id": "6822a3b21bb288ad4a0f6644",
+      "userId": "68229ecb1bb288ad4a0f65c0",
+      "courseId": "6822a0c91bb288ad4a0f661c",
+      "isPaid": false,
+      "total": "4000",
+      "dateTimeCreated": "2025-05-13"
+    }
+  ]
+  

@@ -1,0 +1,89 @@
+<!--
+	Note: 
+	- <html> tag - refers the browser to read the contents of the file as HTML
+	- <head> tag - contains the details of the HTML file NOT VISIBLE in the browser
+	- <title> tag - sets the title of the tab shown in the browser
+	- <body> tag - contains the actual content of the HTML file that are VISIBLE to the browser
+	- HTML normally come in pairs and are called "paired tags"
+-->
+
+<!--
+ - comments hotkey = ctrl + shift + / 
+ - comments are useful for proper documentation and allows developer to understand the code better
+ - comments are ignored by the browser and doesnt show as text
+	-->
+
+<html>
+	<head>
+		<title>HTML INTRODUCTION</title>
+	</head>
+	<body> 
+		<h1>Zuiit Tech Career Program</h1>
+		<!-- 
+		NOTE:
+		- <h1> tag - creates a heading text element that is larger in size and is bolder in text
+		- Header Tag - creates block element -->
+		<h3>John Doe</h3>
+			<hr>
+			<!-- 
+			- hr tag - creates horizontal rule element
+			- hr tag - creates block element -->
+			<p>Welcome to <em>Zuitt!</em><br> In this online tech career program, you will learn a lot of things. Let's enumerate all the things that will make you a <strong>full-stack developer</strong></p>
+			<!-- 
+			<p> tag - creates paragraph element - create block element
+			<em> tag - changes the style of the text (italized) alternatives you can use <i>
+			<strong> tag - changes the style of the text (bold) alternatives you can use <b>
+			<br> tag - produces line break (in actual <br> not used in manipulation of text)
+			 -->
+
+			 <ul>
+			 	<li>Languages</li>
+			 		<ul>
+			 			<li>HTML</li>
+			 			<li>CSS</li>
+			 			<li>JavaScript</li>
+			 		</ul>
+			 	<li>Frameworks & Libraries</li>
+			 		 <ol type="I">
+			 			<li>Bootstrap</li>
+			 			<li>Express.js</li>	
+			 			<li>React.js</li>
+					 </ol>
+			 	<li>Tools</li>
+			 		 <ol type="I">
+			 			<li>Git</li>
+			 			<li>Zuitt Git</li>
+			 			<li>Sublime Text 3</li>
+			 			<li>Postman</li>
+			 			<li>Others</li>
+			 				<ul>
+			 					<li>MongoDB</li>
+			 					<li>MongoDBcompass</li>
+			 				</ul>
+					 </ol>
+			 </ul>
+
+			 <!-- 
+			 - <ul> tag - creates an unordered list with bullet points - creates block element
+			 - <li> tag - creates a list item element for the specified list. Used together with <ul> tag 
+			 NOTE: <ol> is inside the <ul> this is called nesting - HTML elements can be nested as needed
+			 - <ol> tag - creates ordered list of elements in numbers (default)
+			 - type="" - changes the list whether in letter, or in roman numeral or in etc.
+			 -->
+			<h3>List of Favorite Movies</h3>
+			 <ul>
+			 	<li>How to train your dragon 1</li>
+			 	<li>How to train your dragon 2</li>
+			 	<li>How to train your dragon 3</li>
+			 </ul>
+			 		<h3>Top 3 favorite Food</h3>
+			 		<ol reversed>
+			 			<li>Sinigang</li>
+			 			<li>Laing</li>	
+			 			<li>Kaldereta</li>
+					 </ol>
+					 <!-- 
+					 - reversed - is an HTML attribute use to reversed the arrangement list of the <ol> from 1st 2nd 3rd to 3rd 2nd 1st, in this case... sinigang is the 3rd or least favorite food -->
+			<p>There is a lot to learn in this tech career program. It may look overwhelming at the beginning. but it's all worth it when you graduate!</p>
+		</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Attributes and Links</title>
+</head>
+<body>
+	<h2 id="top">HTML Attributes</h2>
+
+	<!-- The align attribute changes the alignment of the paragraph element  -->
+
+	<p align="center"><em>Modifiers of element behavior</em></p>
+	<p><em>Go to <a href="#bot">bottom</a></em></p>
+	<!-- NOTE:
+		- HTML elements have a default behavior wen shown in a browser. Attributes allow us to change these behaviors. 
+		- Paragraph tags by default are aligned to the left.
+		- The "align" attribute changes the alignment of the paragraph element.
+	 -->
+	 <h2>HTML Images</h2>
+
+	 <p align="right">
+	 	<em>An image can be shown using &lt;img&gt; tag along with its <strong>src</strong></em>
+	 </p>
+
+	 <!-- Important Note:
+	 - &lt; and &gt; are called HTML entities and are used to include special character into text. Some special characters used in HTML are read as part of the code. The angle braces (<>) is common example of this. to avoid any errors in code we use HTML entities.
+
+	  -->
+
+	  <!-- Adds an image using an absolute link -->
+	  <!-- Important Note:
+	  <img> tag - used to include images - create inline element. 
+	  - <code> tag - used to define a pieace of computer code and displays text in the browser using it's default monospace font.
+	  - "src" attribute accepts a url from an online resource.
+	  -->
+	  	<!-- HTML tags wrapped inside an anchor/a tag will become a clickable element
+	  	- The "target" attribute defines where the link will be opened. Providing the value of "_blank" will open the link in a new tab. By default hyperlinks open pages in the same tab  -->
+	  <a href="https://www.akc.org/puppies/"target="_blank"><img src="https://res.cloudinary.com/dneeqo5vq/image/upload/v1708476720/dog300x300_yzrind.jpg"> </a>
+
+	  <p>
+	  	<code>
+	  		&lt;img src ="https://res.cloudinary.com/dneeqo5vq/image/upload/v1708476720/dog300x300_yzrind.jpg"&gt;
+	  	</code>
+	  </p>
+
+	  <img src="./images/ZuittLogo.jpg">
+
+	  <p>
+	  	<code>
+	  		&lt;img src="./images/ZuittLogo.jpg"&gt;
+	  	</code>
+	  </p>
+
+	  <p>Valid image extension are the following</p>
+	  <ol type="a">
+	  	<li>png</li>
+	  	<li>jpg</li>
+	  	<li>jpeg</li>
+	  	<li>gif</li>
+	  	<li>svg</li>
+	  	<li>webp</li>
+	  </ol>
+
+	  <p>Take a look at w3schools attribute references <a href="https://www.w3schools.com/tags/ref_attributes.asp" target="_blank">here</a></p>
+<!-- Important Note:
+
+- The dot (.) symbol in the relative link refers to the current directory
+- The forward slash (/) symbol refers to accessing a directory/folder 
+- The filename is added after the last forward slash (/) symbol and includes the file extension.
+- Most common errors encountered has to do with typographical error:
+	- Using relative links for images is case sensitive.
+	- Wrong file extension used.
+ -->
+ 
+ 		<h2>HTML Links</h2>
+
+ 		<h4>Absolute Link</h4>
+
+ 		<a href="https://zuitt.co">I'm a hyperlink </a>
+
+ 		<!-- 
+ 		Important Note:
+ 		- <a href=""> tag is used to create hyperlinks which gives access to a links in this case "https://zuitt.co" 
+ 		- <a href> tag is an inline element
+ 		-->
+
+ 		<h4 id="bot">Relative Link</h4>
+
+ 		<!-- Redirects to the link.html file -->
+ 		<p>Go to <a href="./link.html">link.html</a> page</p>
+
+ 		<p>Go to <a href="#top">Top</a></p>
+ 		
+ 		<!-- Important Note:
+ 		- The "id" attribute assigns a unique named identifier to an element.
+ 		- # is used to 
+ 		 -->
+
+</body>
+</html>

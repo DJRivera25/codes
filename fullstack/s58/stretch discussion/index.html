@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JAVASCRIPT REACTIVE DOM Manipulation</title>
+</head>
+<body>
+  <h1>POSTS</h1> 
+  <button id="load-posts">Load POSTS</button> 
+  <button id="delete-all">Delete All Post</button> 
+  
+  <!-- Changed id to match JS -->
+  <div id="post-list"></div>
+
+  <!-- Form to add 1 post -->
+	<form id="form-add-post">
+		<span>Title</span><br>
+		<input type="text" id="txt-title" name="txt-title"><br>
+
+		<span>Body</span><br>
+		<textarea id="txt-body" name="txt-body"></textarea><br>
+
+		<button type="submit">Create</button>
+	</form>
+
+  <script src="index.js"></script>
+</body>
+</html>
