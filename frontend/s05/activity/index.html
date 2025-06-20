@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>S05 Activity</title>
+	<style>
+		table.center{
+			margin-left: auto;
+			margin-right: auto;
+		}
+	</style>
+</head>
+<body>
+	<header align="center">
+		<h1>Zuitt IT Solutions</h1>
+	</header>
+
+	<main align="center">
+		<section>
+			<h2>Products Offered</h2>
+			<table border="1" class="center">
+				<thead>
+					<th>Package</th>
+					<th>Price</th>
+					<th>Description</th>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Basic</td>
+						<td>&#8369; 500.00</td>
+						<td>Package includes a fully functional website with desired specifications.</td>
+					</tr>
+					<tr>
+						<td>Premium</td>
+						<td>&#8369; 1000.00</td>
+						<td>Enjoy all the benefits of the basic package and also includes site support and maintenance.</td>
+					</tr>
+					<tfoot>
+						<tr>
+							<th colspan="3">Additional features after initial project is inclusive of charges</th>
+						</tr>
+					</tfoot>
+				</tbody>
+			</table>
+		</section>
+
+		<section>
+			<h2>Contact Form</h2>
+			<form>
+				<label for="first_name">First Name:</label><br>
+				<input type="text" name="first_name" id="first_name" required autocomplete=""><br>
+
+				<label for="last_name">Last Name:</label><br>
+				<input type="text" name="last_name" id="last_name" required autocomplete=""><br>
+
+				<label for="email">Email:</label><br>
+				<input type="email" name="email" id="email" required autocomplete=""><br>
+
+				<label for="contact">Contact Number:</label><br>
+				<input type="number" name="contact" id="contact" required autocomplete=""><br>
+
+				<label for="contact">Service Type:</label><br>
+				<select name="service_type" id="service_type">
+					<option value="front_end_programming">Front End Programming</option>
+					<option value="back_end_programming">Back End Programming</option>
+					<option value="full_stack_programming">Full Stack Programming</option>
+				</select><br>
+
+				<label>Preferred Contact:</label><br>
+				<input type="checkbox" name="pref_contact1" id="pref_contact1" value="email">
+				<label for="pref_contact1">Email</label><br>
+				<input type="checkbox" name="pref_contact2" id="pref_contact2" value="phone">
+				<label for="pref_contact2">Phone</label><br>
+
+				<label>Package:</label><br>
+				<input type="radio" name="package" id="package1" value="basic">
+				<label for="package1">Basic</label><br>
+				<input type="radio" name="package" id="package2" value="premium">
+				<label for="package2">Premium</label><br><br>
+				<label for="message">Message:</label><br>
+				<textarea name="message" rows="5" cols="20" id="message">
+				</textarea><br>
+
+				<button type="submit">Send Inquiry</button><br>
+				<button type="reset">Reset</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>

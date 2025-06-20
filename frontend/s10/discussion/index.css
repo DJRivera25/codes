@@ -1,0 +1,42 @@
+/*
+CSS Rules
+selector {
+	property: value;
+}
+*/
+*{
+	font-family: "Courier New", monospace;
+	font-size: 20px;
+
+}	
+h1 {
+	color:green !important;
+}
+
+/* ID SELECTOR
+	#id-name */
+
+#zuitt-motto {
+	letter-spacing: 5px;
+}
+
+h3 {
+	letter-spacing: 25px;
+}
+
+#landing {
+
+	color: darkred;
+	align-content: center;
+}
+
+/*Class Selector
+.class-name*/
+
+.offering-item {
+	text-transform: uppercase;
+
+}
+
+
+

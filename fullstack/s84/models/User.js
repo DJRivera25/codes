@@ -1,0 +1,36 @@
+const mongoose = require("mongoose");
+
+const userSchema = new mongoose.Schema(
+  {
+    fullName: {
+      type: String,
+      required: [true, "full name is required"],
+      trim: true,
+    },
+    email: {
+      type: String,
+      required: [true, "email is required"],
+      trim: true,
+    },
+    password: {
+      type: String,
+      required: [true, "password is required"],
+      trim: true,
+    },
+    mobileNo: {
+      type: String,
+      required: [true, "mobile number is required"],
+      trim: true,
+    },
+    isAdmin: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  {
+    timestamps: true,
+  }
+);
+
+const User = mongoose.model("User", userSchema);
+module.exports = User;

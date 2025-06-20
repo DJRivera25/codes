@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JavaScript - Reactive DOM with Fetch</title>
+</head>
+<body>
+
+	<h1>Posts</h1>
+	<!-- All posts from the server should be in the div-post-entries -->
+    <button id="delete-all">DELETE ALL</button>
+	<div id="div-post-entries">ALL POST WILL SHOW HERE</div>
+
+	<!-- Form to add 1 post -->
+	<h2>Add Post</h2>
+	<form id="form-add-post">
+		
+		<span>Title</span><br>
+		<input type="text" id="txt-title" name="txt-title"><br>
+
+		<span>Body</span><br>
+		<textarea id="txt-body" name="txt-body"></textarea><br>
+
+		<button type="submit">Create</button>
+	</form>
+
+	<h2>Edit Post</h2>
+	<form id="form-edit-post">	
+
+		<input type="text" id="txt-edit-id" hidden/> <br>
+
+		<span>Title</span><br>
+		<input type="text" id="txt-edit-title" name="txt-edit-title"><br>
+
+		<span>Body</span><br>
+		<textarea id="txt-edit-body" name="txt-edit-body"></textarea><br>
+
+		<button type="submit" id="btn-submit-update" disabled>update</button>
+	</form>
+
+
+	<script src="index.js"></script>
+</body>
+</html>

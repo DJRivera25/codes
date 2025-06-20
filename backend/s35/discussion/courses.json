@@ -1,0 +1,33 @@
+[
+    {
+      "_id": "6822a0c91bb288ad4a0f661a",
+      "name": "HTML",
+      "description": "Learn the basics and how to code.",
+      "enrollees": ["68229ecb1bb288ad4a0f65c0"],
+      "slots": "20",
+      "isActive": true,
+      "price": "1000",
+      "dateTimeCreated": "2020-03-15"
+    },
+    {
+      "_id": "6822a0c91bb288ad4a0f661b",
+      "name": "CSS",
+      "description": "Lets make our application cool.",
+      "enrollees": [],
+      "slots": "20",
+      "isActive": false,
+      "price": "2000",
+      "dateTimeCreated": "2021-08-15"
+    },
+    {
+      "_id": "6822a0c91bb288ad4a0f661c",
+      "name": "JavaScript",
+      "description": "Make websites fun and interactive.",
+      "enrollees": ["68229ecb1bb288ad4a0f65c0"],
+      "slots": "20",
+      "isActive": true,
+      "price": "4000",
+      "dateTimeCreated": "2022-02-01"
+    }
+  ]
+  
